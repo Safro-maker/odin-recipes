@@ -24,12 +24,66 @@ a {
     display:flex;
     color:aliceblue;
     background-color:black;
-    margin:0;
-    padding:0;
+    padding-bottom:3px;
+    border-bottom:5px solid #8A2BE2;
 }
 img {
     margin:15px;
 }
 .one {
     color:aquamarine;
+}
+.blocks {
+    display:flex;
+    gap:40px;
+}
+.li1 {
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color:aliceblue;
+    border:1px solid #00CED1;
+}
+.ser {
+    background-color: black;
+    color:aliceblue;
+    padding:10px;
+    padding-left:15px;
+    border-bottom:5px solid #8A2BE2;
+}
+.blocks2 {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.li2 {
+    border-radius: 10px;
+    background-color: darkblue;
+    padding:10px;
+    width:500px;
+    border:1px solid #00CED1;
+}
+.kon {
+    background-color: black;
+    color:aliceblue;
+    padding:15px 30px;
+}
+.blocks3 {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.li3 {
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color:aliceblue;
+    border:1px solid #00CED1;
+}
+.on {
+    padding-bottom:12px;
+}
+.on2 {
+    padding:20px 5px;
+    font-size:20px;
 }
