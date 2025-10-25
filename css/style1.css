@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.obsh {
+    display:flex;
+    flex-direction:column;
+    margin: 15px;
+    gap:20px;
+}
+ul {
+    margin:15px;
+}
+a {
+    color:#8A2BE2;
+}
+.open {
+    display:flex;
+    color:aliceblue;
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+img {
+    margin:15px;
+}
+.one {
+    color:aquamarine;
+}
